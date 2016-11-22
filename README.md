@@ -1,4 +1,4 @@
-//This is a copy of Sunshine, for educational purpose only
+//This is a replica of Sunshine, for educational purpose only
 
 Sunshine
 ========
