@@ -128,9 +128,6 @@ public class MainActivity extends ActionBarActivity implements ForecastFragment.
     @Override
     public void onItemSelected(Uri contentUri) {
         if (mTwoPane) {
-            // In two-pane mode, show the detail view in this activity by
-            // adding or replacing the detail fragment using a
-            // fragment transaction.
             Bundle args = new Bundle();
             args.putParcelable(DetailFragment.DETAIL_URI, contentUri);
 
